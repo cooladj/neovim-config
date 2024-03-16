@@ -59,8 +59,22 @@ return require('packer').startup(function(use)
   }
 
   use("folke/zen-mode.nvim")
-  use("github/copilot.vim")
   use("eandrju/cellular-automaton.nvim")
+  use{"NeogitOrg/neogit",
+    requires ={
+        "nvim-lua/plenary.nvim",
+        "sindrets/diffview.nvim"
+
+    }
+
+}
+
+
+use {
+  'yamatsum/nvim-nonicons',
+  requires = {'kyazdani42/nvim-web-devicons'}
+}
+
   use {
   "nvim-neo-tree/neo-tree.nvim",
     branch = "v3.x",
