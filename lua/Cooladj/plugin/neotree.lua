@@ -145,8 +145,8 @@ return {
 							["P"] = { "toggle_preview", config = { use_float = true, use_image_nvim = true } },
 							-- Read `# Preview Mode` for more information
 							["<leader>l"] = "focus_preview",
-							["S"] = "open_split",
-							["s"] = "open_vsplit",
+							["s"] = "open_split",
+							["v"] = "open_vsplit",
 							-- ["S"] = "split_with_window_picker",
 							-- ["s"] = "vsplit_with_window_picker",
 							["t"] = "open_tabnew",
