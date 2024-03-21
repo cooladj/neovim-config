@@ -1,5 +1,6 @@
 -- Set the cursor shape to the default for insert mode
-vim.opt.guicursor = "n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor,sm:block-blinkwait175-blinkoff150-blinkon175"
+vim.opt.guicursor =
+	"n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor,sm:block-blinkwait175-blinkoff150-blinkon175"
 -- Show line numbers
 vim.opt.nu = true
 -- Show relative line numbers
@@ -53,6 +54,4 @@ vim.opt.colorcolumn = "80"
 -- Use the '+' register for all yank, delete, change, and put operations
 vim.opt.clipboard = "unnamedplus"
 
-vim.cmd.colorscheme="darcula-solid-custom"
-vim.g.loaded_netrwPlugin = 1
-vim.g.loaded_netrw = 1
+vim.cmd.colorscheme = "darcula-solid-custom"
